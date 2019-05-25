@@ -1,10 +1,10 @@
 <?php
 
-	$destino= "castillolopez735@gmail.com";
-	$nombre = $POST["name"];
-	$correo = $POST["email"];
-	$sujeto = $POST["subject"];
-	$mensaje = $POST["message"];
+	$destino= "castillolopez735@gmail.com"
+	$nombre = $_POST["name"];
+	$correo = $_POST["email"];
+	$sujeto = $_POST["subject"];
+	$mensaje = $_POST["message"];
 
 	$contenido = "Nombre".$nombre."\nEmail".$correo."\nSujeto".$sujeto."Mensaje".$mensaje;
 
