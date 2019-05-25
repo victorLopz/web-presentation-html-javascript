@@ -8,6 +8,8 @@
 
 	$contenido = "Nombre".$nombre."\nEmail".$correo."\nSujeto".$sujeto."Mensaje".$mensaje;
 
+	echo $contenido
+
 	mail($destino,"Contacto",$contenido);
 	header("Location:index.html");
 
