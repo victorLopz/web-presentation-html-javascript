@@ -9,11 +9,21 @@ body {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Work Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
@@ -50,7 +60,8 @@ p {
   color: #8b98af;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
   width: 100%;
 }
@@ -64,14 +75,20 @@ body, html {
   background: #e1a34c;
 }
 
-input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
   box-shadow: none;
   height: 45px;
   outline: none;
   font-size: 14px;
 }
 
-input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus {
   box-shadow: none;
   border: 0px;
   border-bottom: 1px solid #e1a34c;
@@ -150,7 +167,9 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border-radius: 50px;
 }
 
-.btn.active:focus, .btn:active:focus, .btn:focus {
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
   outline: 0;
 }
 
@@ -214,11 +233,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background: #bc2a8d;
 }
 
-.overly, .bg-3 {
+.overly,
+.bg-3 {
   position: relative;
 }
 
-.overly:before, .bg-3:before {
+.overly:before,
+.bg-3:before {
   content: "";
   position: absolute;
   left: 0;
@@ -276,7 +297,8 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   border-top: 1px solid #19273e;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   outline: 0;
   text-decoration: none;
 }
@@ -288,7 +310,7 @@ a:hover, a:focus {
 .navbar-nav .nav-link {
   text-transform: capitalize;
   font-size: 18px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   color: #fff;
   padding: 10px 15px !important;
 }
@@ -309,7 +331,7 @@ a:hover, a:focus {
 }
 
 .navigation {
-  transition: .3s ease;
+  transition: 0.3s ease;
   border-bottom: 1px solid transparent;
 }
 
@@ -334,7 +356,7 @@ a:hover, a:focus {
 
 .head-trans {
   font-size: 120px;
-  opacity: .03;
+  opacity: 0.03;
   position: absolute;
   top: 23%;
   font-weight: 700;
@@ -395,13 +417,13 @@ a:hover, a:focus {
 }
 
 #service .card {
-  transition: all .35s ease;
+  transition: all 0.35s ease;
   background: #19273e;
 }
 
 #service .card h3 {
-  transition: all .35s ease;
-  opacity: .9;
+  transition: all 0.35s ease;
+  opacity: 0.9;
 }
 
 #service .card:hover {
@@ -421,7 +443,7 @@ a:hover, a:focus {
   width: 100%;
   height: 0;
   background: rgba(225, 163, 76, 0.95);
-  transition: all .35s ease;
+  transition: all 0.35s ease;
   overflow: hidden;
   z-index: 1;
 }
@@ -435,7 +457,7 @@ a:hover, a:focus {
   opacity: 0;
   left: 50%;
   margin-left: -20px;
-  transition: all .35s ease;
+  transition: all 0.35s ease;
   z-index: 2;
 }
 
@@ -490,7 +512,7 @@ a:hover, a:focus {
 .portfolio-sidebar ul li span {
   font-size: 13px;
   color: #fff;
-  opacity: .9;
+  opacity: 0.9;
   font-weight: 600;
 }
 
@@ -639,7 +661,7 @@ a:hover, a:focus {
 }
 
 .reveal {
-  transition: all .3s;
+  transition: all 0.3s;
   cursor: pointer;
   opacity: 1;
 }
